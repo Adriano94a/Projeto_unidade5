@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #51e6d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajustado para ocupar toda a altura da tela */
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #040855;
+    margin-bottom: 20px; /* Espaço entre o título e o formulário */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Espaço entre o label e o input */
+    text-align: left; /* Alinhamento do texto dos labels */
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-right: 16px;
+    margin-bottom: 16px; /* Espaço maior entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #cbdcf5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+button:hover {
+    background-color: #040855;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
